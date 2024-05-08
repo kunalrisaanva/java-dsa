@@ -1,2 +1,3 @@
-# java-dsa
-repo for java + DSA 
+# Java + DSA Notes 
+
+
