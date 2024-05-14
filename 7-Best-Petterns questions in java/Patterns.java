@@ -68,17 +68,99 @@ public class Patterns {
 
         // outer loop 
 
-        for( int i = n ; i>= 1 ; i-- ){
+        //     for( int i = n ; i>= 1 ; i-- ){
 
-          // inner loop 
+        //       // inner loop 
 
-        for( int j = 1; j <=i; j++){
-           System.out.print("*");
+        //     for( int j = 1; j <=i; j++){
+        //        System.out.print("*");
+        //     }
+
+        //      System.out.println();
+        //   }
+
+
+
+        // fifth question ans -> 
+        
+        // outer loop 
+
+        // for(int i = 1 ; i <= n ; i++ ){
+
+        //     // inner loop -> space print
+
+        //     for(int j = 1 ; j <= n-i; j++ ){
+        //         System.out.print(" ");
+        //     }
+
+
+        //     // inner loop -> start print
+
+        //     for(int j = 1 ; j <= i ; j++ ){
+        //         System.out.print("*");
+        //     }
+
+        //     System.out.println();
+        // } 
+
+
+        
+        // sixth question ans ->     
+        
+        // int k = 5;
+        
+        // for(int i = 1 ; i <= k; i++){
+
+        //     for(int j = 1; j <= i; j++){
+        //         System.out.print(j+" ");
+        //     }
+
+        //     System.out.println();
+
+        // }
+
+        
+        // seventh question ans -> 
+        
+        // int k = 5;
+
+
+        // // outer loop 
+        
+        // for( int i = 1; i <= k ; i ++){
+
+        //     // inner loop 
+
+        //     for(int j = 1; j <= k-i+1; j++ ){
+        //         System.out.print(j);
+        //     }
+
+        //     System.out.println();
+        // }
+
+        
+
+        // Eight question ans -> 
+        
+
+        int k = 5;
+        int number = 1;
+
+        // outer loop 
+        
+        for( int i = 1; i <= k ; i ++){
+
+            // inner loop 
+
+            for(int j = 1; j <= i; j++ ){
+                System.out.print(number + " ");
+                number++; // number = number + 1
+            }
+
+            System.out.println();
         }
 
-         System.out.println();
-      }
-
+        
     }
     
 }
@@ -123,3 +205,54 @@ public class Patterns {
 // ***
 // **
 // *
+
+
+//5 question:- print the pattern 
+// -- Inverted Half Pyramid ( rotated by 180 deg )
+
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
+
+//6 question:- print the pattern 
+// 
+
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+
+//7 question:- print the pattern 
+// -- Inverted Half Pyramid with number
+
+// 12345
+// 1234
+// 123
+// 12
+// 1
+
+
+//8 question:- print the pattern 
+// --Floyd's Traiangle
+
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
+
+
+
+//8 question:- print the pattern 
+// --0-1 Traingle
+
+// 1
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
