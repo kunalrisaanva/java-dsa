@@ -143,24 +143,57 @@ public class Patterns {
         // Eight question ans -> 
         
 
-        int k = 5;
-        int number = 1;
+        // int k = 5;
+        // int number = 1;
 
         // outer loop 
         
-        for( int i = 1; i <= k ; i ++){
+        // for( int i = 1; i <= k ; i ++){
 
-            // inner loop 
+        //     // inner loop 
 
-            for(int j = 1; j <= i; j++ ){
-                System.out.print(number + " ");
-                number++; // number = number + 1
-            }
+        //     for(int j = 1; j <= i; j++ ){
+        //         System.out.print(number + " ");
+        //         number++; // number = number + 1
+        //     }
 
-            System.out.println();
-        }
+        //     System.out.println();
+        // }
+
+
+        // ninth question ans -> 
+        
+
+        // int k = 5;
+
+        // outer loop 
+
+        // for(int i = 1; i <= k; i++){
+            
+            //inner loop 
+
+        //     for(int j =1; j <= i; j++){
+        //         int sum = i+j;
+        //         if(sum % 2 == 0){ // even 
+        //             System.out.print("1");
+        //         }else{ // odd
+        //             System.out.print("0");
+        //         }
+
+        //     }
+
+        //     System.out.println();
+
+
+        // }
 
         
+
+
+       // tenth question ans -> 
+
+
+
     }
     
 }
@@ -248,7 +281,7 @@ public class Patterns {
 
 
 
-//8 question:- print the pattern 
+//9 question:- print the pattern 
 // --0-1 Traingle
 
 // 1
@@ -256,3 +289,19 @@ public class Patterns {
 // 1 0 1
 // 0 1 0 1
 // 1 0 1 0 1
+
+
+
+//10 question:- print the pattern 
+// Butterfly Pattern 
+
+
+
+// *      *
+// **    **
+// ***  ***
+// ********
+// ********
+// ***  ***
+// **    **
+// *      *
