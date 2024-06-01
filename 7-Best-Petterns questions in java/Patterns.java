@@ -191,6 +191,72 @@ public class Patterns {
 
 
        // tenth question ans -> 
+        
+
+       int a = 5;
+       
+
+       // upper half 
+
+       for( int i = 1; i <=a ; i++){
+
+        // 1 part
+
+        for(int j = 1; j<=i ; j++){
+
+            System.out.print("*");
+        }
+
+        // spaces 
+
+        int space = 2 * (a-i);
+
+        for(int j=1; j<= space ; j++){
+            System.out.print(" ");
+        }
+
+        // 2nd part
+
+        for(int j=1; j<=i; j++){
+            System.out.print("*");
+        }
+
+        System.out.println();
+
+
+       }
+
+    //lower half
+
+
+    for( int i = a; i >=1 ; i--){
+
+        // 1 part
+
+        for(int j = 1; j<=i ; j++){
+
+            System.out.print("*");
+        }
+
+        // spaces 
+
+        int space = 2 * (a-i);
+
+        for(int j=1; j<= space ; j++){
+            System.out.print(" ");
+        }
+
+        // 2nd part
+
+        for(int j=1; j<=i; j++){
+            System.out.print("*");
+        }
+
+        System.out.println();
+
+
+       }
+
 
 
 
