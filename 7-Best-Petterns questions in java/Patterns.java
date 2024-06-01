@@ -260,29 +260,53 @@ public class Patterns {
 
     // Eleventh question ans ->
    
-        int c = 5;
+        // int c = 5;
 
 
-        for(int i = 1; i<=c ; i++){
+        // for(int i = 1; i<=c ; i++){
             
 
-        //  spaces 
+        // //  spaces 
 
-            for(int j = 1; j <= c-i; j++){
-                System.out.print(" ");
-            }
+        //     for(int j = 1; j <= c-i; j++){
+        //         System.out.print(" ");
+        //     }
 
-            // stars
+        //     // stars
 
-            for(int j =1 ; j<= 5; j++){
-                System.out.print("*");
-            }
+        //     for(int j =1 ; j<= 5; j++){
+        //         System.out.print("*");
+        //     }
 
-        System.out.println();
+        // System.out.println();
 
+        // }
+        
+        
+       // Twelfth question ans ->
+
+
+       int b = 5;
+
+       for(int i=1 ; i<=b; i++){
+
+
+        // spaces
+
+        for(int j=1 ; j<=b-i; j++){
+            System.out.print(" ");
         }
-        
-        
+
+        // number --> print row no times
+
+        for(int j = 1; j<=i; j++){
+            System.out.print(i + " ");
+        }
+
+
+         System.out.println();
+       }
+
 
     }
     
@@ -406,3 +430,13 @@ public class Patterns {
 //     *****
 //    *****
 //   *****
+
+
+//12 question:- print the pattern 
+// Number Pyramid
+
+// 1
+// 22
+// 333
+// 4444
+// 55555
