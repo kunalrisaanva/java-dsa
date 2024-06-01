@@ -190,75 +190,99 @@ public class Patterns {
         
 
 
-       // tenth question ans -> 
+        // tenth question ans -> 
         
 
-       int a = 5;
+        //    int a = 5;
        
 
-       // upper half 
+        // upper half 
 
-       for( int i = 1; i <=a ; i++){
+        //    for( int i = 1; i <=a ; i++){
 
-        // 1 part
+        //     // 1 part
 
-        for(int j = 1; j<=i ; j++){
+        //     for(int j = 1; j<=i ; j++){
 
-            System.out.print("*");
-        }
+        //         System.out.print("*");
+        //     }
 
-        // spaces 
+        //     // spaces 
 
-        int space = 2 * (a-i);
+        //     int space = 2 * (a-i);
 
-        for(int j=1; j<= space ; j++){
-            System.out.print(" ");
-        }
+        //     for(int j=1; j<= space ; j++){
+        //         System.out.print(" ");
+        //     }
 
-        // 2nd part
+          //     // 2nd part
 
-        for(int j=1; j<=i; j++){
-            System.out.print("*");
-        }
+         //     for(int j=1; j<=i; j++){
+         //         System.out.print("*");
+         //     }
+
+        //     System.out.println();
+
+
+          //    }
+
+    // lower half
+
+
+        // for( int i = a; i >=1 ; i--){
+
+        //     // 1 part
+
+        //     for(int j = 1; j<=i ; j++){
+
+        //         System.out.print("*");
+        //     }
+
+        //     // spaces 
+
+        //     int space = 2 * (a-i);
+
+        //     for(int j=1; j<= space ; j++){
+        //         System.out.print(" ");
+        //     }
+
+        //     // 2nd part
+
+        //     for(int j=1; j<=i; j++){
+        //         System.out.print("*");
+        //     }
+
+        //     System.out.println();
+
+
+        //    }
+
+
+    // Eleventh question ans ->
+   
+        int c = 5;
+
+
+        for(int i = 1; i<=c ; i++){
+            
+
+        //  spaces 
+
+            for(int j = 1; j <= c-i; j++){
+                System.out.print(" ");
+            }
+
+            // stars
+
+            for(int j =1 ; j<= 5; j++){
+                System.out.print("*");
+            }
 
         System.out.println();
 
-
-       }
-
-    //lower half
-
-
-    for( int i = a; i >=1 ; i--){
-
-        // 1 part
-
-        for(int j = 1; j<=i ; j++){
-
-            System.out.print("*");
         }
-
-        // spaces 
-
-        int space = 2 * (a-i);
-
-        for(int j=1; j<= space ; j++){
-            System.out.print(" ");
-        }
-
-        // 2nd part
-
-        for(int j=1; j<=i; j++){
-            System.out.print("*");
-        }
-
-        System.out.println();
-
-
-       }
-
-
-
+        
+        
 
     }
     
@@ -371,3 +395,14 @@ public class Patterns {
 // ***  ***
 // **    **
 // *      *
+
+
+
+//11 question:- print the pattern 
+// Solid Rhoombus
+
+//       *****
+//      *****
+//     *****
+//    *****
+//   *****
