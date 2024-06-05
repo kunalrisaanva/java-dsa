@@ -286,26 +286,70 @@ public class Patterns {
        // Twelfth question ans ->
 
 
-       int b = 5;
+    //    int b = 5;
 
-       for(int i=1 ; i<=b; i++){
+    //    for(int i=1 ; i<=b; i++){
 
 
         // spaces
 
-        for(int j=1 ; j<=b-i; j++){
-            System.out.print(" ");
-        }
+        // for(int j=1 ; j<=b-i; j++){
+        //     System.out.print(" ");
+        // }
 
         // number --> print row no times
 
-        for(int j = 1; j<=i; j++){
-            System.out.print(i + " ");
+    //     for(int j = 1; j<=i; j++){
+    //         System.out.print(i + " ");
+    //     }
+
+
+    //      System.out.println();
+    //    }
+
+    
+
+    // Thirteen question ans ->
+
+
+    int k = 5;
+
+
+    for(int i = 1 ; i <= k ; i++){
+
+
+        // spaces 
+
+        for(int j = 1 ; j <=k-i ;j++){
+            System.out.print(" ");
         }
 
 
-         System.out.println();
-       }
+
+        // 1st half numbers 
+
+        for(int j=i; j>=1; j--){
+            System.out.print(j);
+
+        }
+
+
+        //2nd half numbers
+
+
+        for(int j=2 ; j<=i; j++){
+            System.out.print(j);
+        }
+
+
+        System.out.println();
+    }
+
+
+    // Fourteen  question ans ->
+
+
+
 
 
     }
@@ -410,7 +454,6 @@ public class Patterns {
 // Butterfly Pattern 
 
 
-
 // *      *
 // **    **
 // ***  ***
@@ -440,3 +483,28 @@ public class Patterns {
 // 333
 // 4444
 // 55555
+
+
+//13 question:- print the pattern 
+// Palindromic Pattern
+
+//     1
+//    212
+//   32123
+//  4321234
+// 543212345
+
+
+
+//14 question:- print the pattern 
+// Daimond Pattern 
+
+
+//       *
+//      ***
+//     *****
+//    *******
+//    *******
+//     ***** 
+//      *** 
+//       *
