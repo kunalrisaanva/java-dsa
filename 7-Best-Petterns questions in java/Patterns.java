@@ -315,41 +315,84 @@ public class Patterns {
     int k = 5;
 
 
-    for(int i = 1 ; i <= k ; i++){
+    // for(int i = 1 ; i <= k ; i++){
 
 
         // spaces 
 
-        for(int j = 1 ; j <=k-i ;j++){
-            System.out.print(" ");
-        }
+        // for(int j = 1 ; j <=k-i ;j++){
+        //     System.out.print(" ");
+        // }
 
 
 
         // 1st half numbers 
 
-        for(int j=i; j>=1; j--){
-            System.out.print(j);
+        // for(int j=i; j>=1; j--){
+        //     System.out.print(j);
 
-        }
+        // }
 
 
         //2nd half numbers
 
 
-        for(int j=2 ; j<=i; j++){
-            System.out.print(j);
-        }
+        // for(int j=2 ; j<=i; j++){
+        //     System.out.print(j);
+        // }
 
 
-        System.out.println();
-    }
+        // System.out.println();
+    // }
 
 
     // Fourteen  question ans ->
 
+    int a = 4;
 
 
+    // upper half 
+
+    for(int i = 1; i<=a; i++){
+
+        // spaces
+
+        for(int j=1 ; j<=a-i ; j++){
+            System.err.print(" ");
+        }
+
+
+       // stars
+       
+       for(int j=1 ; j<=2*i-1; j++){
+        System.out.print("*");
+       }
+
+
+       System.out.println();
+    }
+
+
+     // lower half 
+    
+     for(int i = a ; i>=1; i--){
+
+        // spaces
+
+        for(int j=1 ; j<=a-i ; j++){
+            System.err.print(" ");
+        }
+
+
+       // stars
+       
+       for(int j=1 ; j<=2*i-1; j++){
+        System.out.print("*");
+       }
+
+
+       System.out.println();
+    }
 
 
     }
